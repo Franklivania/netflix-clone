@@ -22,6 +22,9 @@
     --small-box-height: 2rem;
     --small-box-width: 5rem;
     --border-radius: 0.3rem;
+    --extra-text-size: 4rem;
+    --large-text-size: 2.4rem;
+    --text-size: 1.6rem;
     --font: 'Roboto', sans-serif;
 }
 

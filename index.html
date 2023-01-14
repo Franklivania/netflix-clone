@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/hero.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/section-one.css">
 
     <title>Netflix clone</title>
 </head>
 <body>
     <main>
         <header>
-            <img src="./assets/logo.svg" alt="netflix logo">
+            <img src="./assets/logo.svg" alt="netflix logo"> 
 
-            <div class="left">
+            <div class="right">
                 <select name="language" id="select">
-                    <option value="language"><i class="fa-solid fa-globe"></i> English</option>
+                    <option value="language"> English</option>
                     <option value="language">French</option>
                     <option value="language">Pidgin</option>
                 </select>
@@ -26,6 +27,33 @@
                 <a href="">Sign In</a>
             </div>
         </header>
+
+        <div class="text">
+            <h1>
+                Unlimited movies, TV <br> shows and more.
+            </h1>
+            <p>Watch anywhere. Cancel anytime</p>
+            <small>Ready to watch? Enter your email to create or restart your membership</small>
+
+            <label for="">
+                <input type="email" name="email" id="" placeholder="Email address">
+                <button type="">Get started <i class="fa-solid fa-chevron-right"></i></button>
+            </label>
+        </div>
     </main>
+
+    <section class="one">
+        <div class="left">
+            <h1>Enjoy your tv</h1>
+            <p>
+                Watch on Smart TVs, Playstation, Xbox, <br> 
+                Chromecast, Apple TV, Blu-ray players, <br> 
+                and more.
+            </p>
+        </div>
+        <div class="right">
+            <img src="./assets/tv.svg" alt="television">
+        </div>
+    </section>
 </body>
 </html>

@@ -7,4 +7,52 @@ main{
     url(../assets/background.jpg) no-repeat center;
     background-size: cover;
     height: var(--height);
+    font-family: var(--font);
+    border-bottom: 0.5rem solid var(--line-color);
+}
+
+main .text{
+    height: var(--height);
+    width: var(--width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    color: var(--text-color);
+    text-align: center;
+    margin: 7rem 0 0 0;
+}
+
+main .text h1{
+    font-size: var(--extra-text-size);
+}
+
+main .text p{
+    font-size: var(--text-size);
+    font-weight: 300;
+}
+main .text small{
+    margin: 1rem 0 0 0;
+}
+
+main .text label{
+    margin: 1rem 0 0 0;
+    width: var(--width);
+}
+
+main .text label input,
+main .text label button{
+    outline: none;
+    border: none;
+    font-size: var(--text-size);
+    padding: 1rem;
+}
+
+main .text label input{
+    width: calc((var(--width)) * 0.4);
+}
+
+main .text label button{
+    background: var(--sub-color);
+    color: var(--text-color);
 }

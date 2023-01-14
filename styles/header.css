@@ -6,14 +6,14 @@ header{
     justify-content: space-between;
 }
 
-header .left{
+header .right{
     width: calc((var(--width)) * 0.15);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header .left select{
+header .right select{
     outline: none;
     color: var(--text-color);
     background: rgba(var(--main-color), 1);
@@ -21,7 +21,7 @@ header .left select{
     padding: 0.5rem;
 }
 
-header .left a{
+header .right a{
     background: var(--sub-color);
     text-decoration: none;
     color: var(--text-color);
