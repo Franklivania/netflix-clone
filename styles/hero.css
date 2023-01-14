@@ -1,0 +1,10 @@
+main{
+    width: var(--width);
+    background: radial-gradient(
+        circle,
+        rgba(var(--main-color), 0.5),
+        rgba(var(--main-color), 0.7)),
+    url(../assets/background.jpg) no-repeat center;
+    background-size: cover;
+    height: var(--height);
+}

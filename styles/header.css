@@ -1,0 +1,34 @@
+header{
+    width: var(--width);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left{
+    width: calc((var(--width)) * 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left select{
+    outline: none;
+    color: var(--text-color);
+    background: rgba(var(--main-color), 1);
+    border: none;
+    padding: 0.5rem;
+}
+
+header .left a{
+    background: var(--sub-color);
+    text-decoration: none;
+    color: var(--text-color);
+    height: var(--small-box-height);
+    width: var(--small-box-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+}
