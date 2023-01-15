@@ -1,0 +1,42 @@
+.two .left{
+    position: relative;
+}
+
+.two .left .img{
+    position: relative;
+}
+
+.two .left .card{
+    position: absolute;
+    top: calc((var(--height))* 0.4);
+    left: calc((var(--width))* 0.22);
+    height: var(--box-height);
+    width: calc((var(--box-width)) * 0.35);
+    background: rgba(var(--main-color), 1);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 0.4rem;
+    border: 0.3rem solid var(--line-color);
+    border-radius: var(--border-radius);
+}
+
+.two .left .card p{
+    /* background: var(--line-color); */
+    text-align: center;
+    padding: 0.5rem 0 0 0;
+}
+
+.two .left .card span{
+    color: var(--ad-color);
+}
+
+.two .right h1{
+    font-size: var(--extra-text-size);
+    font-weight: 400;
+}
+.two .right p{
+    font-size: var(--text-size);
+    font-weight: 400; 
+}
+

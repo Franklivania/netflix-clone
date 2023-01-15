@@ -30,5 +30,5 @@ header .right a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--border-radius);
+    border-radius: var(--small-border-radius);
 }
