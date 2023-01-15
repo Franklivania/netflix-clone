@@ -1,0 +1,8 @@
+.four .right h1{
+    font-size: var(--large-text-size);
+    font-weight: 400;
+}
+.four .right p{
+    font-size: var(--text-size);
+    font-weight: 400; 
+}
