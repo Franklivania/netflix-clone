@@ -1,0 +1,53 @@
+@import url(../main.css);
+
+.wrapper{
+    font-family: var(--font);
+    /* overflow: hidden; */
+    background: var(--background);
+}
+
+header{
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 0;
+    width: var(--width);
+    font-family: var(--font);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header #logo{
+    width: calc((var(--width)) * 0.5);
+    padding: 0 0 0 1rem;
+}
+
+header nav a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header menu{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: calc((var(--width)) * 0.48);
+}
+
+header menu i{
+    padding: 0 1rem;
+}
+
+header menu a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+header menu #prof{
+    width: calc((var(--width)) * 0.05);
+}

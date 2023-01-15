@@ -1,0 +1,87 @@
+@import url(../main.css);
+
+main{
+    background: url(../../assets/poster.svg) center no-repeat;
+    background-size: cover;
+    height: var(--height);
+    width: var(--width);
+    color: var(--text-color);
+    padding: 0 0 0 3rem;
+    position: relative;
+}
+
+main h1{
+    padding: 5rem 0 0 0;
+    font-size: var(--extra-text-size);
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 span{
+    font-weight: 100;
+    margin: -2.5rem 0 0 5rem;
+}
+
+main .block{
+    display: flex;
+    align-items: center;
+}
+
+main .block .box{
+    padding: 0.1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: var(--sub-color);
+}
+
+main p{
+    margin: 1rem 0;
+}
+
+main button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: var(--small-border-radius);
+}
+
+main button i{
+    padding: 0 0.5rem;
+}
+
+#play{
+    background: var(--text-color);
+}
+
+#info{
+    background: rgba(var(--text-color-tr), 0.3);
+    color: var(--text-color);
+}
+
+main .container{
+    width: var(--width);
+}
+
+main .container .carousel{
+    width: var(--width);
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+main .container .carousel img{
+    width: calc((var(--width)) * 0.25);
+    padding: 0 0.2rem;
+}
+
+#btn{
+    position: absolute;
+    height: var(--height);
+    right: 0;
+    background: transparent;
+    color: var(--text-color);
+    outline: none;
+    border: none;
+}
