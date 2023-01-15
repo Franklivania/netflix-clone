@@ -1,4 +1,4 @@
-.one, .two, .three{
+.one, .two, .three, .four{
     position: relative;
     background: rgba(var(--main-color), 1);
     border-bottom: 0.5rem solid var(--line-color);
