@@ -1,0 +1,75 @@
+.faq{
+    position: relative;
+    padding: 2rem;
+    width: var(--width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    background: rgba(var(--main-color), 1);
+    border-bottom: 0.5rem solid var(--line-color);
+
+}
+
+.faq h1{
+    font-size: var(--large-text-size);
+    margin: 0 0 2rem 0;
+}
+
+.faq .container{
+    width: var(--width);
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.faq .container .card{
+    width: var(--box-width);
+    height: var(--box-height);
+    background: var(--line-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin: 0.5rem 0;
+    font-size: var(--text-size);
+}
+
+.faq .bottom{
+    width: var(--width);
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.faq .bottom small{
+    margin: 1rem 0 0 0;
+}
+
+.faq .bottom label{
+    margin: 1rem 0 0 0;
+    width: var(--width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq .bottom label input,
+.faq .bottom label button{
+    outline: none;
+    border: none;
+}
+
+.faq .bottom label input{
+    width: calc((var(--width)) * 0.4);
+    padding: 1.3rem;
+}
+
+.faq .bottom label button{
+    background: var(--sub-color);
+    color: var(--text-color);
+    font-size: var(--text-size);
+    padding: 0.87rem;
+    margin: 0 0 0 0.2rem;
+}
