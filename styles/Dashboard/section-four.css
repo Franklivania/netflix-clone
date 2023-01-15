@@ -1,0 +1,34 @@
+.four{
+    position: relative;
+    color: var(--text-color);
+    width: var(--width);
+    padding: 2rem 0;
+}
+
+.four p{
+    padding: 1rem 3rem;
+    font-size: var(--text-size);
+}
+
+.four .carousel{
+    position: relative;
+    width: var(--width);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.four .carousel img{
+    width: calc((var(--width)) * 0.3);
+    padding: 0 0.2rem;
+}
+
+.bot{
+    position: absolute;
+    height: var(--height);
+    left: 0.2rem;
+    background: transparent;
+    color: var(--text-color);
+    outline: none;
+    border: none;
+}
