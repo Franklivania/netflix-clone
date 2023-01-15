@@ -1,0 +1,54 @@
+@import url(../main.css);
+
+.one{
+    color: var(--text-color);
+    padding: 2rem 0 2rem 3rem;
+    width: var(--width);
+}
+
+.one p{
+    padding: 1rem 0;
+}
+
+.one .carousel{
+    position: relative;
+    width: var(--width);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.one .carousel .img{
+    width: calc((var(--width)) * 0.2);
+    margin: 0 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one .carousel img{
+    padding: 0 0.2rem;
+}
+
+.btn{
+    position: absolute;
+    height: var(--height);
+    right: 0.2rem;
+    background: transparent;
+    color: var(--text-color);
+    outline: none;
+    border: none;
+}
+
+.progress{
+    width: calc((var(--width)) * 0.7);
+    background: var(--footer-text);
+    margin: 0.5rem 0;
+}
+
+.bar{
+    padding: 0.1rem 0;
+    background: var(--sub-color);
+    width: calc((var(--width)) * 0.3)
+}
