@@ -1,0 +1,48 @@
+@import url(../styles/main.css);
+
+body{
+    background: var(--background);
+    color: var(--text-color);
+    font-family: var(--font);
+}
+
+#logo{
+    padding: 3rem;
+    width: calc((var(--width)) * 0.2);
+}
+
+.box{
+    height: var(--height);
+    width: var(--width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.box h1{
+    font-size: var(--extra-text-size);
+    padding: 2rem 0;
+}
+
+.box .container{
+    width: var(--width);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    place-items: center;
+    color: var(--footer-text);
+    font-size: var(--text-font);
+}
+
+.box .container .card{
+    text-align: center;
+}
+
+#manage{
+    margin: 3rem 0 0 0;
+    padding: 0.5rem 1.3rem;
+    background: transparent;
+    outline: none;
+    border: 0.1rem solid var(--footer-text);
+    color: var(--footer-text);
+}
