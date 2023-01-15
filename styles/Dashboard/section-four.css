@@ -3,6 +3,7 @@
     color: var(--text-color);
     width: var(--width);
     padding: 2rem 0;
+    font-family: var(--font);
 }
 
 .four p{

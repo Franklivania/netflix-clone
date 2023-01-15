@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    width: var(--width);
+    margin: 4rem 0;
+    color: var(--footer-text);
+}
+
+footer .social img{
+    padding: 0 0.3rem;
+}
+
+footer menu{
+    display: flex;
+    justify-content: center;
+    width: var(--width);
+}
+
+footer menu nav{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+footer menu nav a{
+    text-decoration: none;
+    color: var(--footer-text);
+    padding: 0.3rem 0;
+}
+
+footer menu nav a:hover{
+    color: var(--text-color);
+}
+
+footer button{
+    width: calc((var(--width)) * 0.07);
+    padding: 0.5rem 0;
+    border: 0.12rem solid var(--footer-text);
+    background: transparent;
+    color: var(--footer-text);
+}
+
+footer .social,
+footer button,
+footer small{
+    margin: 1rem 0 1rem 17rem;
+}

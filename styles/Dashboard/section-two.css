@@ -4,6 +4,7 @@
     padding: 0 0 3rem 3rem;
     color: var(--text-color);
     width: var(--width);
+    font-family: var(--font);
 }
 
 .two p{
